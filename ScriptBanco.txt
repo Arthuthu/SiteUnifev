@@ -1,0 +1,26 @@
+USE [SiteUnifev]
+GO
+/****** Object:  Table [dbo].[Buttons]    Script Date: 28/09/2022 22:43:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Buttons](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Icone] [nvarchar](max) NULL,
+	[Nome] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_Buttons] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET IDENTITY_INSERT [dbo].[Buttons] ON 
+
+INSERT [dbo].[Buttons] ([Id], [Icone], [Nome]) VALUES (1, N'fa-solid fa-chart-simple', N'Receita')
+INSERT [dbo].[Buttons] ([Id], [Icone], [Nome]) VALUES (2, N'fa-solid fa-gopuram', N'Servidores')
+INSERT [dbo].[Buttons] ([Id], [Icone], [Nome]) VALUES (3, N'fa-solid fa-money-bill', N'Despeza')
+INSERT [dbo].[Buttons] ([Id], [Icone], [Nome]) VALUES (4, N'fa-solid fa-box-open', N'Demonstrativo')
+INSERT [dbo].[Buttons] ([Id], [Icone], [Nome]) VALUES (5, N'', N'')
+SET IDENTITY_INSERT [dbo].[Buttons] OFF

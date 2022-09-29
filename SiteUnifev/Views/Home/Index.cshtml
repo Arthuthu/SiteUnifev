@@ -1,0 +1,75 @@
+﻿<link href="~/Content/site.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="nav">
+    <div class="logo">
+        UNIFEV
+    </div>
+    <div>
+
+    </div>
+</div>
+
+<div class="navbar-links">
+    <div class="navbar-links-label">
+        <p>Portal X</p>
+        <p>Fale conosco</p>
+        <p>Site da empresa</p>
+    </div>
+    <div>
+
+    </div>
+</div>
+
+<div class="titulo-div">
+    <div class="titulo">
+        PORTAL DA EMPRESA
+    </div>
+    <div class="lupa">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+</div>
+
+<div class="descricao">
+    <div class="text-descricao">
+        Mais uma noite como todas as anteriores. Pego minha caneca de café cheia, acendo meu ultimo cigarro e corro pra velha janela do quarto.
+        Observo a noite fria e chuvosa, até parece confortável por um momento, se não fossem as dezenas de preocupações que me desmotivam a cada dia.
+        Penso em você, mesmo sabendo o quão longe está de mim, sinto aquele amor que continua a me desgraçar intensamente a cada dia, e penso quando enfim poderei te ter comigo.
+        Sei lá, o café chega ao fim e trago a ultima ponta, nada muda. É como se eu fosse passar por isso mais uns longos anos a frente.
+    </div>
+    <div class="botoes-chaves">
+        <div class="botao-manual-navegacao">
+            MANUAL DE NAVEGAÇÃO
+        </div>
+        <div class="botao-perguntas-frequentes">
+            PERGUNTAS FREQUENTES
+        </div>
+    </div>
+</div>
+
+@{
+    var botoes = ViewBag.Botoes;
+}
+
+<div id="botoes">
+    @foreach (var b in botoes)
+    {
+        <a href="Index" class="cold-md-2" id="botoes-links">
+            
+            <i class="@b.Icone"></i>
+            @b.Nome
+        </a>
+    }
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/dark-light-mode.js" asp-append-version="true"></script>
+<script src="https://kit.fontawesome.com/a077060aed.js" crossorigin="anonymous"></script>
+
+

@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ScriptBanco.txt = ScriptBanco.txt
 	EndProjectSection
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SiteUnifevDatabase", "SiteUnifevDatabase\SiteUnifevDatabase.sqlproj", "{427D80FE-0F77-41DD-9276-100B2E2AA593}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,12 +26,6 @@ Global
 		{CFF66E4E-AC4C-464F-B901-9F9635E53531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF66E4E-AC4C-464F-B901-9F9635E53531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF66E4E-AC4C-464F-B901-9F9635E53531}.Release|Any CPU.Build.0 = Release|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Release|Any CPU.Build.0 = Release|Any CPU
-		{427D80FE-0F77-41DD-9276-100B2E2AA593}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

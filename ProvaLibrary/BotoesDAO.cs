@@ -12,7 +12,7 @@ namespace ProvaLibrary
     {
         public List<BotoesModels> Listar()
         {
-            List<BotoesModels> botoes = banco.Query<BotoesModels>(@"select * from Buttons").ToList();
+            List<BotoesModels> botoes = banco.Query<BotoesModels>("select * from Buttons").ToList();
             return botoes;
         }
     }

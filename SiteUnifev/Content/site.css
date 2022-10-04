@@ -8,11 +8,9 @@
 }
 
 .logo {
-    font-size: 3.125rem;
+    font-size: 50px;
     font-weight: bold;
-    margin-left: 6.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin: 1rem 0 1rem 21.2%;
 }
 
 .titulo-div{
@@ -21,58 +19,60 @@
 }
 
 .lupa {
-    background-image: linear-gradient(#32D915, #28A911);
     align-self: center;
     width: 50px;
     height: 50px;
-    padding-left: 1.125rem;
-    padding-top: 0.8rem;
-    border-radius: 0.75rem;
+    margin-right: 170px;
+    padding-left: 18px;
+    padding-top: 13px;
+    border-radius: 12px;
+    background-image: linear-gradient(#14F12B, #0ABB1D);
 }
 
 .navbar-links {
     display: flex;
     background: blue;
-    padding-top: 0.6rem;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
 .navbar-links-label {
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
+    margin-left: 19.5%;
 }
 
-.navbar-links-label p{
-    color: white;
-    font-size: 1rem;
-    margin-left: 1.25rem;
-    font-weight: bold;
-    margin-top: 0.3rem;
-}
+    .navbar-links-label p {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
 
 
 .titulo {
-    font-size: 2.5rem;
+    font-size: 40px;
     color: blue;
     font-weight: bold;
-    margin-top: 1.25rem;
-    margin-left: 6.25rem;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .descricao {
+    margin: 20px 0 0 100px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     max-width: 80%;
-    margin-left: 100px;
     font-family: 'Roboto', sans-serif;
 }
 
 .botoes-chaves {
     display: flex;
-    padding-left: 1.25rem;
+    padding-left: 20px;
     justify-content: center;
-    margin-bottom: 3.75rem;
+    margin-bottom: 60px;
 }
 
 .botao-manual-navegacao {
@@ -83,19 +83,19 @@
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding-top: 2.5rem;
+    padding-top: 40px;
 }
 
 .botao-perguntas-frequentes {
-    background-image: linear-gradient(#F4FB15, #CBBB18);
+    background-image: linear-gradient(#F6FF33, #EEEB08);
     color: black;
     height: 100px;
     width: 220px;
     text-align: center;
-    margin-left: 1.25rem;
+    margin-left: 20px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding-top: 2.5rem;
+    padding-top: 40px;
 }
 
 .text-descricao {
@@ -103,15 +103,28 @@
 }
 
 #botoes {
-    display: flex;
-    font-size: 2rem;
-    margin: 1.875rem 12.5rem 0rem 6.25rem;
+    margin: 1.3rem 0 0 0;
+    font-size: 23px;
 }
 
 #botoes-links {
-    margin-right: 1.25rem;
+    margin: .5rem;
     border-style: groove;
-    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
     text-decoration: none;
     color: black;
+}
+
+.botoes-text {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
